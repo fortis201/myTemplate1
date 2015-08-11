@@ -1,6 +1,44 @@
+/* === CSS RESET === */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+/* === END RESET === */
+
+body {
+  background-color: red;
+}
+#top_nav {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+#main {
+  background-color: black;
+  height: 900px;
+}
+
+#about {
+  background-color: orange;
+  height: 500px;
+}
+
+#contact {
+  background-color: white;
+  height: 500px;
+}
+
+#footer {
+  background-color: gray;
+  height: 200px;
+}
+
 /* **** parallax css **** */
 
-.parallax {
+/*.parallax {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -56,4 +94,4 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+}*/
