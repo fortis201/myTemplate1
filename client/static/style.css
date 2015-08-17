@@ -12,8 +12,13 @@ body {
 #top_nav {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   width: 100%;
+}
+
+#header {
+  background-color: yellow;
+  height: 400px;
 }
 
 #main {
