@@ -3,9 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>This is a trial template for my site</title>
+
+	<!-- jquery  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+
 	<!-- bootstrap -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 	<!-- angular and route -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
@@ -13,102 +17,99 @@
 	<!-- socket -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.5/socket.io.min.js"></script>
 
-	<!-- js and jquery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<!-- local script -->	
 	<script src="./script/script.js"></script>
 
-	<!-- stylesheet -->
+	<!-- local stylesheet -->
 	<link rel="stylesheet" href="./static/style.css">
 </head>
 <body ng-app="myApp">
 
+	<!-- *** Wrapper ***  -->
+	<div id="wrapper" class="container-fluid">
 
-<!-- SAVE PARALLAX FOR A LATER VERSION OF THIS SITE!!! -->
-<!-- 	<div class="parallax">
-	  <div class="parallax__layer parallax__layer--back">
-	    <h1 class="title">back layer</h1>
-	  </div>
-	  <div class="parallax__layer parallax__layer--base">
-	  	<h2 class="title">base layer</h2>
-	  </div>
-	</div> -->
-<!-- /PARALLAX -->
+		<!-- *** Navigation *** -->
+		<nav id="top_nav" class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
 
-<!-- *** Navigation *** -->
-<nav id="top_nav" class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header collapse navbar-collapse">
-			<a href="#/" class="navbar-brand">Welcome to JV Priime!</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="">Blog</a>
-				</li>
-				<li>
-					<a href="">Projects</a>
-				</li>
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li>
-					<a href="#contact">Contact</a>
-				</li>
-				<li>
-					<a href="#footer">Links</a>
-				</li>
-			</ul>
-			<!-- <ul class="nav navbar-nav navbar-right">
+				<!-- *** Nav Header *** -->
+				<div class="navbar-header">
+					<a href="" class="navbar-brand">Welcome to JV Prime!</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- *** End Nav Header ***  -->			
 
-				insert right-side items here
+				<div id="navHeaderCollapse" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="">Blog</a>
+						</li>
+						<li>
+							<a href="">Projects</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+						<li>
+							<a href="#footer">Links</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- *** End of navigation *** -->
 
-			</ul> -->
-		</div>
+		<!-- *** Left sidebar ***  -->
+		<nav id="right_nav">
+
+			<!-- Do I really need this sidebar????  -->
+			<!-- blog and project categories here ??? -->
+
+		</nav>
+		<!-- *** End of sidebar *** -->
+
+		 <!-- *** Header ***  -->
+		<header id="header">
+		</header>
+		<!-- *** End of header ***  -->
+
+
+		<!-- *** main content *** -->
+		<section id="main">
+
+			<!-- *** Main content partials *** -->
+			<div id="content">
+			</div>
+			<!-- *** End of partials *** -->
+
+		</section>
+
+		<!-- *** End of paritals *** -->
+
+		<!-- *** About ***  -->
+		<section id="about">
+		</section>
+		<!-- *** End about ***  -->
+
+		 <!-- *** Contact ***  -->
+		 <section id="contact">
+		 </section>
+		  <!-- *** End contact ***  -->
+
+		 <!-- *** Footer ***  -->
+		<section id="footer">
+		</section>
+		<!-- *** End of footer *** -->
+
 	</div>
-</nav>
-<!-- *** End of navigation *** -->
-
-<!-- *** Left sidebar ***  -->
-<nav id="right_nav">
-
-	<!-- Do I really need this sidebar????  -->
-	<!-- blog and project categories here ??? -->
-
-</nav>
-<!-- *** End of sidebar *** -->
-
- <!-- *** Header ***  -->
-<header id="header">
-</header>
-<!-- *** End of header ***  -->
-
-
-<!-- *** main content *** -->
-<section id="main">
-
-	<!-- *** Main content partials *** -->
-	<div id="content">
-	</div>
-	<!-- *** End of partials *** -->
-
-</section>
-
-<!-- *** End of paritals *** -->
-
-<!-- *** About ***  -->
-<section id="about">
-</section>
-<!-- *** End about ***  -->
-
- <!-- *** Contact ***  -->
- <section id="contact">
- </section>
-  <!-- *** End contact ***  -->
-
- <!-- *** Footer ***  -->
-<section id="footer">
-</section>
-<!-- *** End of footer *** -->
+	<!-- *** End Wrapper ***  -->
 
 </body>
 </html>

@@ -1,8 +1,8 @@
 /* === CSS RESET === */
 * {
-  padding: 0;
-  border: 0;
-  margin: 0;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
 }
 /* === END RESET === */
 
@@ -16,8 +16,12 @@ body {
   width: 100%;
 }
 
+#wrapper {
+  padding: 0px;
+}
+
 #header {
-  background-color: yellow;
+  background-color: aqua;
   height: 400px;
 }
 
@@ -40,63 +44,3 @@ body {
   background-color: gray;
   height: 200px;
 }
-
-/* **** parallax css **** */
-
-/*.parallax {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
-}
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.parallax__layer--base {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);  
-  bakcground-color: yellow;
-}
-
-.parallax__layer--back {
-  -webkit-transform: translateZ(-1px);
-  transform: translateZ(-1px);
-  /*height: 80%;*/
-  background-color: green;
-}
-
-* {
-  margin:0;
-  padding:0;
-}
-
-body {
-  font: 100% / 1.5 Arial;
-  /*background-color: red;*/
-}
-
-.parallax {
-  font-size: 200%;
-  background-color: black;
-}
-
- /* add some padding to force scrollbars */
-.parallax__layer {
-  padding: 100vh 0;
-}
-
- /* centre the content in the parallax layers */
-.title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}*/
