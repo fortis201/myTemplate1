@@ -6,15 +6,20 @@
 }
 /* === END RESET === */
 
-body {
-  background-color: red;
+.inline-block {
+  display: inline-block;
 }
+
 #top_nav {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem 1rem;
   width: 100%;
 }
+  
+  #top_nav #myBrand {
+    width: 30rem;
+  }
 
 #wrapper {
   padding: 0px;
@@ -25,10 +30,14 @@ body {
   height: 400px;
 }
 
-#main {
+#main {  
   background-color: black;
-  height: 900px;
+  height: 960px;
+  color: yellow;
 }
+  #main * {
+    margin: 0px;
+  }
 
 #about {
   background-color: orange;
