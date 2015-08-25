@@ -10,6 +10,10 @@
   display: inline-block;
 }
 
+#wrapper {
+  overflow: auto;
+}
+
 #top_nav {
   margin-left: auto;
   margin-right: auto;
@@ -25,19 +29,20 @@
   padding: 0px;
 }
 
-#header {
+#blog {
   background-color: aqua;
-  height: 400px;
+  height: 960px;
 }
 
-#main {  
+.black {
+  color: black;
+}
+
+#projects {  
   background-color: black;
   height: 960px;
   color: yellow;
 }
-  #main * {
-    margin: 0px;
-  }
 
 #about {
   background-color: orange;
